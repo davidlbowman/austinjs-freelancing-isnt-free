@@ -1,0 +1,41 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"bracketSpacing": true,
+			"semicolons": "asNeeded"
+		}
+	},
+	"formatter": {
+		"formatWithErrors": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"correctness": {
+				"noUnusedImports": "error"
+			},
+			"nursery": {
+				"useSortedClasses": {
+					"fix": "safe",
+					"level": "off",
+					"options": {
+						"attributes": [],
+						"functions": ["cn", "clsx", "tw", "cva"]
+					}
+				}
+			}
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"defaultBranch": "main",
+		"useIgnoreFile": true
+	}
+}
