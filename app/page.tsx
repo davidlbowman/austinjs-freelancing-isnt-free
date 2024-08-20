@@ -18,12 +18,13 @@ export default function Home() {
 					src="/femaleEngineerPointingAtProjectorScreen.webp"
 					alt="A female engineer pointing at a projector screen"
 					fill
+					priority
 					sizes="100vw"
+					quality={100}
 					style={{
 						objectFit: "cover",
 						objectPosition: "center right",
 					}}
-					quality={100}
 					className="absolute inset-0 z-0 rounded-lg"
 				/>
 				<div className="relative z-10 py-12 px-6 bg-violet-950 bg-opacity-70 min-h-[300px] space-y-4 rounded-lg">
