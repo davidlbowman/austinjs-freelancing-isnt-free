@@ -1,15 +1,30 @@
+import Image from "next/image"
+
 export default function Home() {
 	return (
-		<main className="max-w-4xl space-y-4 p-16">
+		<main className="max-w-7xl space-y-4 p-16">
 			<section>
-				<h1 className="text-balance">
-					Making Money as a Freelancer: A Practical Guide
-				</h1>
-				<p>
-					{
-						"If you're an engineer transitioning into freelancing, developing the skills necessary to succeed in this new landscape is essential. In this talk, we'll cover the primary strategies for making money as a freelancer, from building confidence to finding high-paying clients."
-					}
-				</p>
+				<div className="relative min-h-[300px]">
+					<Image
+						src="/femaleEngineerPointingAtProjectorScreen.webp"
+						alt="A female engineer pointing at a projector screen"
+						layout="fill"
+						objectFit="cover"
+						objectPosition="center right"
+						quality={100}
+						className="absolute inset-0 z-0"
+					/>
+					<div className="relative z-10 py-12 px-6 bg-gray-800 bg-opacity-80 min-h-[300px] space-y-4">
+						<h1 className="text-balance text-white max-w-2xl">
+							Making Money as a Freelancer: A Practical Guide
+						</h1>
+						<p className="text-white max-w-xl">
+							{
+								"If you're an engineer transitioning into freelancing, developing the skills necessary to succeed in this new landscape is essential. In this talk, we'll cover the primary strategies for making money as a freelancer, from building confidence to finding high-paying clients."
+							}
+						</p>
+					</div>
+				</div>
 			</section>
 			<section>
 				<h2>Confidence is Key</h2>
