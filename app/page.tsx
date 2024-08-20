@@ -17,9 +17,12 @@ export default function Home() {
 				<Image
 					src="/femaleEngineerPointingAtProjectorScreen.webp"
 					alt="A female engineer pointing at a projector screen"
-					layout="fill"
-					objectFit="cover"
-					objectPosition="center right"
+					fill
+					sizes="100vw"
+					style={{
+						objectFit: "cover",
+						objectPosition: "center right",
+					}}
 					quality={100}
 					className="absolute inset-0 z-0 rounded-lg"
 				/>
