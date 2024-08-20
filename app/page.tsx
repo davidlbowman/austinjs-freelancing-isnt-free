@@ -12,7 +12,7 @@ import Image from "next/image"
 
 export default function Home() {
 	return (
-		<main className="max-w-7xl mx-auto p-16 flex flex-col gap-4">
+		<main className="max-w-7xl mx-auto p-4 sm:p-8 md:p-12 lg:p-16 flex flex-col gap-4">
 			<div className="relative min-h-[300px]">
 				<Image
 					src="/femaleEngineerPointingAtProjectorScreen.webp"
