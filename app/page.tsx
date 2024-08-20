@@ -28,7 +28,7 @@ export default function Home() {
 				/>
 				<div className="relative z-10 py-12 px-6 bg-violet-950 bg-opacity-70 min-h-[300px] space-y-4 rounded-lg">
 					<h1 className="text-balance text-violet-50 max-w-2xl">
-						Making Money as a Freelancer: A Practical Guide
+						Freelancing Isn't Free!
 					</h1>
 					<p className="text-violet-50 max-w-xl">
 						{
